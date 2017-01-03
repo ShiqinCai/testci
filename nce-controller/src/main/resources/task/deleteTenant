@@ -1,0 +1,11 @@
+{
+    "Version": "v1",
+    "BaseJob": "CheckCodeJob",
+    "CheckCodeJob": {
+        "default" : "DeleteTenantJob"
+    },
+    "DeleteTenantJob": {
+    	"default" : "DeleteTenantRespJob"
+    },
+    "DeleteTenantRespJob" : {}
+}
